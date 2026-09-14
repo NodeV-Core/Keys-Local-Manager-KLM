@@ -38,6 +38,7 @@ def show_accounts():
             print(f"Servicio: {account['Servicio']}")
             print(f"Correo: {account['Correo']}")
             print(f"Contraseña: {account['Contraseña']}")
+            print("#----------------------------------#")
 
     except FileNotFoundError:
         print("Parece que aún no has guardado ninguna cuenta")
