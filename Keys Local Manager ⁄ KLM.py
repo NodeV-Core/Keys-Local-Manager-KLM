@@ -1,5 +1,4 @@
 import json 
-import sys 
 import time
 
 def get_account():
